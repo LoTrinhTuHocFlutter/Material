@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:material/widgets/circle_avatar_example.dart';
+import 'package:material/widgets/circular_progress_indicator_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CircleAvatarExample(),
+      home: CircularProgressIndicatorExample(),
     );
   }
 }
