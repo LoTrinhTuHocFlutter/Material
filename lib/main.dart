@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:material/widgets/expansion_tile_example.dart';
+import 'package:material/widgets/animated_opacity_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ExpansionTileExample(),
+      home: AnimatedOpacityExample(),
     );
   }
 }
