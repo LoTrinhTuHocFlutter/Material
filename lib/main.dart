@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:material/widgets/segmented_button_example.dart';
+import 'package:material/widgets/expansion_tile_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SegmentedButtonExample(),
+      home: ExpansionTileExample(),
     );
   }
 }
